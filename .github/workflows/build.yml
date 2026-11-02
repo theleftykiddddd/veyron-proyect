@@ -9,6 +9,4 @@ on:
 
 jobs:
   build:
-    uses: geode-sdk/build-geode-mod/.github/workflows/build.yml@main
-    with:
-      sdk: nightly
+    uses: geode-sdk/geode/.github/workflows/build-mod.yml@main
